@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func arrayGen(lenn int32) []int32 {
+func ArrayGen(lenn int32) []int32 {
 	rand.Seed(time.Hour.Nanoseconds())
 	arr := make([]int32, lenn)
 	for x := int32(0); x < lenn; x++ {
