@@ -3,11 +3,13 @@ package main
 import (
 	"fmt"
 	"time"
+
+	_ "githut.com/Prosp3r/rev/utility"
 )
 
 func main() {
 	// arr := []int{5, 1, 4, 2, 8}
-	arr := utility.arrayGen(100)
+	arr := utility.arrayGen(100) //utility.arrayGen(100)
 	//arr := arrayGen(100)
 
 	//sort
