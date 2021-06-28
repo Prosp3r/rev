@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"math/rand"
 	"time"
 )
 
 func main() {
 	// arr := []int{5, 1, 4, 2, 8}
-	arr := arrayGen(100)
+	arr := utility.arrayGen(100)
+	//arr := arrayGen(100)
 
 	//sort
 	count := int32(0)
@@ -36,13 +36,4 @@ func bsort(arr []int32, count int32) ([]int32, int32) {
 		bsort(arr, 0)
 	}
 	return arr, count
-}
-
-func arrayGen(lenn int32) []int32 {
-	rand.Seed(time.Hour.Nanoseconds())
-	arr := make([]int32, lenn)
-	for x := int32(0); x < lenn; x++ {
-		arr[x] = rand.Int31n(100) //rand(1, 1800)
-	}
-	return arr
 }
