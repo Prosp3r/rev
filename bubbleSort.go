@@ -20,7 +20,7 @@ func main() {
 	fmt.Printf("Final array :\n%v \n", arrs)
 	endTime := time.Now().Nanosecond()
 	fmt.Println(endTime)
-	fmt.Println((endTime - startTime) / 1000000)
+	fmt.Println(endTime - startTime)
 }
 
 func bsort(arr []int32, count int32) ([]int32, int32) {
