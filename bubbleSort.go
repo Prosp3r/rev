@@ -8,8 +8,8 @@ import (
 )
 
 func main() {
-	// arr := []int{5, 1, 4, 2, 8}
-	arr := utility.ArrayGen(100)
+	// arr := []int32{5, 1, 4, 2, 8}
+	arr := utility.ArrayGen(10)
 
 	//sort
 	count := int32(0)
