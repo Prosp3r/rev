@@ -1,3 +1,3 @@
-module github.com/Prosper/rev/utility
+module github.com/Prosp3r/rev/utility
 
 go 1.16
