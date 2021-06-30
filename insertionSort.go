@@ -8,7 +8,7 @@ import (
 
 func main() {
 	// arr := []int32{12, 11, 13, 5, 6}
-	arr := utility.ArrayGen(15)
+	arr := utility.ArrayGen(20)
 	fmt.Println(arr)
 	for a := 1; a < len(arr); a++ {
 		j := a
