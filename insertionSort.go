@@ -1,9 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/rev/utility"
+)
 
 func main() {
-	arr := []int32{12, 11, 13, 5, 6}
+	// arr := []int32{12, 11, 13, 5, 6}
+	arr := utility.ArrayGen(15)
 	fmt.Println(arr)
 	for a := 1; a < len(arr); a++ {
 		j := a
